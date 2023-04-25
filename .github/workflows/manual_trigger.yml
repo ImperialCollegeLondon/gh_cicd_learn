@@ -1,6 +1,6 @@
 name: My Manual Workflow
 on:
-  workflow_dispatch:
+  [workflow_dispatch]
 jobs:
   my-job:
     runs-on: ubuntu-latest
