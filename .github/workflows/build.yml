@@ -2,16 +2,16 @@ name: C++ Build
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, develop ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, develop ]
 
 jobs:
   cpp-build:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - name: Compile C++ Code
       run: g++ basic_functions.cpp
