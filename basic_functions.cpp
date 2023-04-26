@@ -2,11 +2,13 @@
 
 using namespace std;
 
+// Function to add two numbers.
 int add(int a, int b) 
 {
     return a + b;
 }
 
+// Function to subtract two numbers.
 int sub(int a, int b) 
 {
     return a - b;
