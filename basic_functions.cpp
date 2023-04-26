@@ -14,6 +14,7 @@ int sub(int a, int b)
     return a - b;
 }
 
+// This is the main function.
 int main()
 {
     int a = 1;
