@@ -23,5 +23,6 @@ int main()
     cout << "Addition result is "<< add(a, b) << endl;
     cout << "Subtraction result is "<< sub(a, b) << endl;
     cout << "Addition result is "<< add(a, c) << endl;
+    cout << "Subtraction result is "<< sub(a, c) << endl;
     return 0;
 }
