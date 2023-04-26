@@ -19,7 +19,7 @@ int main()
 {
     int a = 1;
     int b = 5;
-    int c = 10;
+    int c = 15;
     cout << "Addition result is "<< add(a, b) << endl;
     cout << "Subtraction result is "<< sub(a, b) << endl;
     cout << "Addition result is "<< add(a, c) << endl;
